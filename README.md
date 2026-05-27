@@ -1,11 +1,22 @@
-# H5N1-Phylogeography-nov2023-mars2024
-Phylogeographic reconstruction and dispersal statistics of H5N1 in Europe using BEAST, seraphim, and EpiEstim.
-data/       # sequences, alignment, metadata
-scripts/    # R scripts, BEAST XML, seraphim workflow
-results/    # figures and outputs (wavefront, vweighted, maps)
-rapport_H5N1.pdf  # final scientific report
-Methods : 
-IQTREE , TempEst , BEAST 2.5 , Seraphim , Epiestim 
-Author :
-Kindi Baldé 
-Université Libre de Bruxelles 
+# H5N1 – Phylogeography (Nov 2023 – Mar 2024)
+
+Reconstruction phylogéographique du virus H5N1 en Europe à partir de 46 séquences collectées entre novembre 2023 et mars 2024.
+
+## Contenu du dépôt
+
+- **data/** : alignement, métadonnées, dates, coordonnées  
+- **scripts/** : scripts R, fichier XML BEAST, analyses seraphim et EpiEstim  
+- **results/** : figures (TempEst, MCC tree, cartes, statistiques de dispersion) et sorties des analyses  
+
+## Méthodes utilisées
+
+- IQ-TREE (phylogénie ML)  
+- TempEst (signal temporel)  
+- BEAST 2.5 (horloge relaxée + Skygrid)  
+- seraphim (phylogéographie continue)  
+- EpiEstim (estimation du Rt)
+
+## Auteur
+
+Kindi Baldé  
+Université Libre de Bruxelles
