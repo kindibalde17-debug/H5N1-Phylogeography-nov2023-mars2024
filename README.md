@@ -18,5 +18,6 @@ Reconstruction phylogéographique du virus H5N1 en Europe à partir de 46 séque
 
 ## Auteur
 
-Kindi Baldé  
+Kindi Baldé
+Geerts Elise
 Université Libre de Bruxelles
